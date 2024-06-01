@@ -26,25 +26,19 @@ This is a simple Task Management Application built with React.js. It allows user
    cd task-management-app
 
 3. Install dependencies:
-   npm install
-   # or
-   yarn install
+   npm install or yarn install
 
 ### Running the Application
 
 1. To start the development server, run:
-   npm start
-   # or
-   yarn start
+   npm start or yarn start
 
 2. Open your browser and navigate to http://localhost:3000 to see the application in action.
 
 ### Running Tests
 
 1. To run the test suite, use:
-   npm test
-   # or
-   yarn test
+   npm test or yarn test
 
 ## Project Structure
 
