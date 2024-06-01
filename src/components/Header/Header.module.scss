@@ -1,0 +1,60 @@
+$primary-color: #4caf50;
+$text-color: white;
+$hover-color: #ff6632;
+$background-color: #f4f4f4;
+$title-hover-color: $hover-color;
+
+.header {
+  width: 100%;
+  background-color: $background-color;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: $primary-color;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $title-hover-color;
+  }
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navLink {
+  color: $text-color;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  background-color: $primary-color;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: $hover-color;
+    color: $text-color; 
+  }
+}
